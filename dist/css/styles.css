@@ -492,6 +492,10 @@ progress {
   font-weight: 300;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
@@ -11285,4 +11289,18 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+ }
+
+  /* Ids */
+  /* #subscribeEmailAddress {
+    width: 50px;
+  } */
+
+  /* coursel css */
 }

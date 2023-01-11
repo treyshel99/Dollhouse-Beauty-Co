@@ -1,50 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Bare - Start Bootstrap Template</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider" /></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Page content-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Bare - Start Bootstrap Template</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <div class="text-center mt-5">
-                <h1>A Bootstrap 5 Starter Template</h1>
-                <p class="lead">A complete project boilerplate built with Bootstrap</p>
-                <p>Bootstrap v5.1.3</p>
+            <a class="navbar-brand" href="#">The Dollhouse Beauty Company</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link bookNow" href="#">Book Now</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Menu</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown" id="menu">
+                            <li><a class="dropdown-item bookNow" href="#">Book Now</a></li>
+                            <!-- <li><a class="dropdown-item" href="/home/trey/Projects/DollHouseBeautyCo/dist/Services.html">Services</a></li> -->
+                            <li><a class="dropdown-item" href="" id="servicesNav">Services</a></li>
+                            <li><a class="dropdown-item" href="#" id="beforeAndAftercareNav">Before & Aftercare</a></li>
+                            <li><a class="dropdown-item" href="#" id="photoGalleryNav">Photo Gallery</a></li>
+                            <li><a class="dropdown-item" href="#" id="policiesNav">Policies</a></li>
+                            <li><a class="dropdown-item" href="#" id="consentFormsNav">Consent Forms</a></li>
+                            <li><a class="dropdown-item" href="#" id="financingNav">Financing</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+    </nav>
+    <!-- Page content-->
+    <div class="container">
+        <div id="landingSection" class="mt-5 text-center">
+            <!--text-center -->
+            <h1>North Mississippi's #1 Cosmetic Tattoo Studio</h1>
+            <p class="lead underline">About Us</p>
+            <p class="">Video here</p>
+            <p class="lead underline">Meet The Team</p>
+            <p class="lead underline">Reviews</p>
+            <section class='d-flex flex-wrap border p-2'>
+                <article class='card col-12 col-md-6 col-lg-3 pull-left'>
+                    <h5 class="card-title">Beth Hale</h5>
+                    <section class='card-title'>Professional, friendly, and knowledgeable. Maria put me at ease right
+                        away and proceeded to totally rock the procedure. My brows are amazing Totally recommend.
+                    </section>
+                </article>
+                <article class='card col-12 col-md-6 col-lg-3'>
+                    <h5 class="card-title">Sierra Johnson</h5>
+                    <section class='card-title'>Maria is the absolute best at what she does! She is so good at
+                        explaining every single step during the mirco blading process and what to expect afterwards! She
+                        free hands everything and it's just amazing to me how good my brows look! I'm obsessed. Can't
+                        wait to go back and see her!</section>
+                </article>
+                <article class='card col-12 col-md-6 col-lg-3'>
+                    <h5 class="card-title">Cassie Nicole Farr</h5>
+                    <section class='card-title'>Maria and Mary were the sweetest!! Maria did an excellent job on my
+                        brows and explained every step to me. 10/10</section>
+                </article>
+                <article class='card col-12 col-md-6 col-lg-3'>
+                    <h5 class="card-title">Sherry Hamilton Hattaway</h5>
+                    <section class='card-title'>Awesome place! Very relaxing and great to be pampered even for just an
+                        hour. Wish I could come every day.</section>
+                </article>
+            </section>
+            <p class="lead">Join Our VIP List!</p>
+            <p class="lead">Be the first to know our latest happenings and receive exclusive promos and specials!</p>
+            <div class="input-group input-group-sm mb-3">
+                <input id="subscribeEmailAddress" style="width: 50px;" type="text" class="form-control"
+                    aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+            </div>
+            <!-- <form>
+                    <div class="form-group mb-3">
+                        <input style="width: 25%;" type="email" class="form-control" id="exampleInputEmail1"
+                            aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                </form> -->
+            <button type="button" class="btn btn-primary">Subscribe</button>
+            <br>
+            <!-- <button type="button" class="btn btn-primary" style="margin-top: 5px;">Book Now</button>         -->
+        </div>
+
+        <!--------------------------- Book Now --------------------------------->
+        <div id="bookNowSection" style="display:none;">
+            <form>
+                <div class="form-group row" style="padding: 10px;">
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">First And Last Name</label>
+                  <div class="col-sm-3">
+                    <input type="name" class="form-control" id="inputEmail3" placeholder="ex: John Doe">
+                  </div>
+                </div>
+                <div class="form-group row" style="padding: 10px;">
+                  <label for="inputPassword3" class="col-sm-2 col-form-label">Date Of Birth</label>
+                    <div class="col-lg-3 col-sm-3">
+                        <input id="startDate" class="form-control" type="date" />
+                        <span id="startDateSelected"></span>
+                  </div>
+                </div>
+                <div class="form-group row" style="padding: 10px;">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Phone Number</label>
+                    <div class="col-sm-3">
+                      <input type="name" class="form-control" id="inputEmail3" placeholder="ex: John Doe">
+                      <input class="form-check-input" type="checkbox" id="gridCheck1">
+                      <label class="form-check-label" for="gridCheck1">I consent to receiving text reminders</label>
+                    </div>
+                </div>
+                <div class="form-group row" style="padding: 10px;">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-3">
+                      <input type="name" class="form-control" id="inputEmail3" placeholder="ex: johndoe@gmail.com">
+                    </div>
+                </div>
+                <div class="form-group row" style="padding: 10px;">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Desired Service</label>
+                    <div class="col-sm-3">
+                        <select id="inputState" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>Lip Blush Tattoo</option>
+                            <option>Brow Tattoo</option>
+                            <option>Lash Lifts and Tints</option>
+                            <option>Brow Lamination</option>
+                            <option>Henna Brows</option>
+                            <option>Brow Shaping and Cleaning</option>
+                          </select>
+                    </div>
+                </div>
+                <div class="form-group row" style="padding: 10px;">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label">Choose Your Date</label>
+                      <div class="col-lg-3 col-sm-3">
+                          <input id="startDate" class="form-control" type="date" />
+                          <span id="startDateSelected"></span>
+                    </div>
+                </div>
+                <button onclick="sendMail(); return false">Send</button>
+                <a href="mailto:treyshelton99@gmail.com">email me here!</a>
+
+            </form>
+        </div>   
+        <!--------------------------- SERVICES --------------------------------->
+        <div id="servicesSection" style="display:none;">
+            <h1>Services</h1>
+            <div class="row">
+                <div class="span12" style="cursor: pointer;">
+                    <div class="inside">
+                        <hgroup>
+                            <h2 id="servicesSection-cosmeticTattoo">Cosmetic Tattoo</h2>
+                        </hgroup>
+                        <ul id="cosmeticTattooSection" class="entry-content" style="list-style-type: square; display:none;">
+                            <li>Eyebrows</li>
+                            <li>Eyeliner</li>
+                            <li>Lips</li>
+                            <li>Freckles (feux)</li>
+                            <li>Tattoo Removal</li>
+                        </ul>
+                        <hgroup>
+                            <h2 id="servicesSection-esthetics">Esthetics</h2>
+                        </hgroup>
+                        <ul id="estheticsSection" class="entry-content" style="list-style-type: square; display:none;">
+                            <li>Facials</li>
+                            <li>Waxing</li>
+                            <li>Lashes And Brows</li>
+                        </ul>
+                        <hgroup>
+                            <h2 id="servicesSection-massage">Massage</h2>
+                        </hgroup>
+                        <ul id="massageSection" class="entry-content" style="list-style-type: square; display:none;">
+                            <li>Relaxation</li>
+                            <li>Deep Tissue</li>
+                            <li>Prenatal</li>
+                            <li>Reflexology</li>
+                            <li>Cupping</li>
+                            <li>Hot Stones</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--------------------------- Before And After Care--------------------------------->
+        <div id="beforeAndAftercareSection" style="display:none;">
+            <h3>Before And Aftercare</h3>
+        </div> 
+
+        <!--------------------------- Photo Gallery--------------------------------->
+        <div id="photoGallerySection" style="display:none;">
+            <h3>Photo Gallery</h3>
+        </div>  
+
+        <!--------------------------- Policies --------------------------------->
+        <div id="policiesSection" style="display:none;">
+            <h3>Policies</h3>
+        </div>  
+
+        <!--------------------------- Consent Forms --------------------------------->
+        <div id="consentSection" style="display:none;">
+            <h1>Services</h1>
+            <h2>Brow Pre Appointment <a href="BrowPreAppointmentForm.pdf" download></a>Download</h2>
+            <h2>Permanent EyeLiner Services <a href="./dist/assets/Forms/PermanentEyeLinerServices.pdf" download>Download</a></h2>
+        </div>  
+
+        <!--------------------------- Consent Forms --------------------------------->
+        <div id="financingSection" style="display:none;">
+            <h3>Financing</h3>
+        </div>  
+    </div>
+
+    
+    <footer class="footer mt-auto py-3 bg-dark">
+        <div class="container">
+            <h2 style="color: white;">Hours</h2>
+            <p style="color: white;">Sunday: CLOSED</p>
+            <p style="color: white;">Monday: CLOSED</p>   
+            <p style="color: white;">Tuesday: 9 AM - 5 PM</p>
+            <p style="color: white;">Wednesday: 9 AM - 5 PM</p>
+            <p style="color: white;">Thursday: 9 AM - 5 PM</p>
+            <p style="color: white;">Friday: 9 AM - 5 PM</p>
+            <p style="color: white;">Saturday: 9 AM - 5 PM</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
 </html>
