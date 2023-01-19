@@ -9,17 +9,17 @@
 /////////////// LANDING SECTION ////////////////////////
 
 /////////////// BOOK NOW SECTION ////////////////////////
-$(".bookNow").on("click",function(e){
-    e.preventDefault();
-    $("#landingSection").hide();
-    $("#servicesSection").hide();
-    $("#beforeAndAftercareSection").hide();
-    $("#photoGallerySection").hide();
-    $("#policiesSection").hide();
-    $("#consentSection").hide();
-    $("#financingSection").hide();
-    $("#bookNowSection").show();
-});
+// $(".bookNow").on("click",function(e){
+//     e.preventDefault();
+//     $("#landingSection").hide();
+//     $("#servicesSection").hide();
+//     $("#beforeAndAftercareSection").hide();
+//     $("#photoGallerySection").hide();
+//     $("#policiesSection").hide();
+//     $("#consentSection").hide();
+//     $("#financingSection").hide();
+//     $("#bookNowSection").show();
+// });
 
 /////////////// SERVICES SECTION ////////////////////////
 $("#servicesNav").on("click",function(e){
