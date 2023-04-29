@@ -141,3 +141,8 @@ function sendMail() {
     
     window.location.href = link;
 }
+
+// CONSENT INFO CHANGES (LOGAN) //
+let contrainList = document.querySelector('#contrainList');
+console.log(contrainList);
+// contrainList.style.display = "none";
