@@ -143,6 +143,12 @@ function sendMail() {
 }
 
 // CONSENT INFO CHANGES (LOGAN) //
-let contrainList = document.querySelector('#contrainList');
-console.log(contrainList);
-// contrainList.style.display = "none";
+let consentLists = document.querySelectorAll('.consentLists');
+let consentHeaders = document.querySelectorAll(".innerConsentHeaders");
+
+for (let i = 0; i < consentHeaders.length; i++) {
+    consentHeaders[i].addEventListener('click', () => {
+        // console.log(i)
+        consentLists[i].style.display = (consentLists[i].style.display == 'block' ? 'none': 'block');
+    })
+}

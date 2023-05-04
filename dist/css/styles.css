@@ -11304,3 +11304,20 @@ textarea.form-control-lg {
 
   /* coursel css */
 }
+/* Logan's changes */
+.consentLists {
+  display: none;
+}
+
+.consentDivs {
+  outline: 1px solid;
+  outline-color: #F9E6E5;
+
+}
+
+/* color codes
+#524B49
+#A19897
+#0C0807
+#F9E6E5
+ */
